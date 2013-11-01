@@ -1,0 +1,40 @@
+<html data-cast-api-enabled="true">
+  <head>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>  
+<script type="text/javascript" src="js/jquery.mpager.js"></script> 
+<script type="text/javascript" src="js/smp.js"></script>
+<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+ 
+    <link type="text/css" rel="stylesheet" media="all" href="css/smp.css" />  
+  </head>
+  <body class="ms">
+    <div id="smp-video" class="smp-video-element">
+      <div id="smp-ytapiplayer"></div>
+      <p style="color:red;" id="status">Playing Locally</p>
+      <p>Cast video to:</p>
+      <ul id="castlist"></ul>
+      <div id="position"></div>
+      <div><label for="cast-delay">Delay</label><input type="text" name="cast-delay" id="cast-delay" value="0.9"></div>
+   </div>
+    <div id="smp-pages" class="smp-pages">
+    </div>   		     
+    <div id="smp-control">
+      <a id="smp-control-score-toggle" href="#" class="smp-control-score-off"></a>               
+      <a id="smp-control-replay" href="#">&nbsp;</a>            
+      <a id="smp-control-play" class="smp-control-play-mode" href="#">&nbsp;</a>                           
+      <span id="smp-control-measure">            Measure 
+        <a id="smp-control-measure-prev" href="#">&lt;</a>              
+        <input id="smp-control-measure-goto" value="1" size="3" />/72              
+        <a id="smp-control-measure-next" href="#">&gt;</a>            
+      </span>                           
+      <span id="smp-control-page">            Page 
+        <a id="smp-control-page-prev" href="#">&lt;</a>              
+        <input id="smp-control-page-goto" value="1" size="3" />/12              
+        <a id="smp-control-page-next" href="#">&gt;</a>            
+      </span>                         
+      <a id="smp-control-video-toggle" href="#" class="smp-control-video-off">&nbsp;</a>            
+      <a id="smp-control-fullscreen" href="#">fullscreen</a>               
+    </div>  
+    </div>
+  </body>
+</html>
